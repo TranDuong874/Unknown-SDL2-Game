@@ -1,0 +1,44 @@
+# depslib dependency file v1.0
+1676482487 source:d:\game project\test2\object.cpp
+
+1676508015 source:d:\game project\test2\texture.cpp
+	"texture.h"
+
+1676523447 source:d:\game project\test2\main.cpp
+	"game.h"
+
+1676523569 d:\game project\test2\game.h
+	<bits/stdc++.h>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	"entity.h"
+	"texture.h"
+
+1676523118 source:d:\game project\test2\game.cpp
+	"game.h"
+
+1676523154 d:\game project\test2\texture.h
+	<bits/stdc++.h>
+	"game.h"
+
+1676519260 source:d:\game project\test2\animatedsprite.cpp
+	"AnimatedSprite.h"
+
+1676516340 d:\game project\test2\animatedsprite.h
+	"game.h"
+	<string>
+
+1676523369 d:\game project\test2\entity.h
+	"game.h"
+
+1676523369 source:d:\game project\test2\entity.cpp
+	"entity.h"
+
+1676523198 source:d:\game project\test2\animation.cpp
+	"animation.h"
+
+1676520946 d:\game project\test2\animation.h
+	"game.h"
+	<string>
+
