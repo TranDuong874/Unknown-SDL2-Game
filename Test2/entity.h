@@ -2,26 +2,49 @@
 #define entity_h
 #include "game.h"
 
+#include <string>
+using namespace std;
+
+
 class entity
 {
 public:
-    entity(){
-        entityBox.x = 0;
-        entityBox.y = 0;
-        entityBox.w = 0;
-        entityBox.h = 0;
+    entity(double posx, double posy, string path);
+    ~entity();
+
+
+    void load_entityTexture(SDL_Renderer*& renderer);
+
+    void clear_tmp();
+
+    //dstRect parameter will later on be used as clip for animation
+    void render(SDL_Renderer*& renderer/*SDL_Rect clip*/);
+
+    //Set and get functions
+    double get_entityPosx(){return posx;}
+    double get_entityPosy(){return posy;}
+
+    void set_dstRect(int w, int h){
+        dstRect.w = w;
+        dstRect.h = h;
+    }
+    void set_srcRect(int w, int h){
+        srcRect.w = w;
+        srcRect.h = h;
     }
 
-    ~entity(){}
+    void scale_dstRect(double multiple){
+        dstRect.w = dstRect.w *multiple;
+        dstRect.h = dstRect.h *multiple;
+    }
 
-
-    entity(float posx, float posy, SDL_Texture* entityTexture);
-
-    void render(SDL_Renderer*& renderer);
 
 protected:
-    float posx, posy;
-    SDL_Rect entityBox;
-    SDL_Texture* entityTexture;
+    string path;
+    double posx, posy;
+    SDL_Texture *entityTexture = nullptr;
+    SDL_Rect srcRect, dstRect;
 };
+
+
 #endif // entity_h

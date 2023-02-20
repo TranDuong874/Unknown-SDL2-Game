@@ -1,24 +1,26 @@
 # depslib dependency file v1.0
 1676482487 source:d:\game project\test2\object.cpp
 
-1676508015 source:d:\game project\test2\texture.cpp
+1676736659 source:d:\game project\test2\texture.cpp
 	"texture.h"
 
-1676523447 source:d:\game project\test2\main.cpp
+1676769948 source:d:\game project\test2\main.cpp
 	"game.h"
 
-1676523569 d:\game project\test2\game.h
+1676884502 d:\game project\test2\game.h
 	<bits/stdc++.h>
 	<SDL.h>
 	<SDL_image.h>
 	<SDL_mixer.h>
+	"animation.h"
 	"entity.h"
 	"texture.h"
+	"character.h"
 
-1676523118 source:d:\game project\test2\game.cpp
+1676872919 source:d:\game project\test2\game.cpp
 	"game.h"
 
-1676523154 d:\game project\test2\texture.h
+1676734824 d:\game project\test2\texture.h
 	<bits/stdc++.h>
 	"game.h"
 
@@ -29,16 +31,32 @@
 	"game.h"
 	<string>
 
-1676523369 d:\game project\test2\entity.h
-	"game.h"
-
-1676523369 source:d:\game project\test2\entity.cpp
-	"entity.h"
-
-1676523198 source:d:\game project\test2\animation.cpp
-	"animation.h"
-
-1676520946 d:\game project\test2\animation.h
+1676704945 d:\game project\test2\entity.h
 	"game.h"
 	<string>
+
+1676705456 source:d:\game project\test2\entity.cpp
+	"entity.h"
+
+1676827892 source:d:\game project\test2\animation.cpp
+	"animation.h"
+
+1676885280 d:\game project\test2\animation.h
+	"game.h"
+	<bits/stdc++.h>
+
+1676878173 source:d:\game project\test2\player.cpp
+	"player.h"
+
+1676878772 d:\game project\test2\player.h
+	"game.h"
+	"animation.h"
+
+1676884928 d:\game project\test2\character.h
+	"entity.h"
+	<bits/stdc++.h>
+	"animation.h"
+	"game.h"
+
+1676883769 source:d:\game project\test2\character.cpp
 
