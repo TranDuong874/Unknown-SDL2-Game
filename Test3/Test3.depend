@@ -1,0 +1,66 @@
+# depslib dependency file v1.0
+1677146471 source:d:\game project\test3\main.cpp
+	"game.h"
+
+1677154908 d:\game project\test3\game.h
+	<SDL.h>
+	"animation.h"
+
+1677161918 source:d:\game project\test3\game.cpp
+	"game.h"
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<iostream>
+	"entity.h"
+	"map.h"
+	"player.h"
+
+1677148491 source:d:\game project\test3\entity.cpp
+	"entity.h"
+	<SDL_image.h>
+	<iostream>
+
+1677154882 d:\game project\test3\entity.h
+	"game.h"
+	<string>
+
+1676965044 source:d:\game project\test3\texture.cpp
+	"texture.h"
+	<iostream>
+	<SDL_image.h>
+	<string>
+
+1676965862 d:\game project\test3\texture.h
+	"game.h"
+	<string>
+
+1677146636 source:d:\game project\test3\player.cpp
+
+1676977608 source:d:\game project\test3\layer.cpp
+
+1677082434 source:d:\game project\test3\map.cpp
+
+1676999905 d:\game project\test3\layer.h
+
+1677084972 d:\game project\test3\map.h
+
+1677085437 source:d:\game project\test3\physics.cpp
+
+1677087246 d:\game project\test3\physics.h
+	<SDL.h>
+	<SDL_image.h>
+
+1677145657 source:d:\game project\test3\animation.cpp
+
+1677164921 d:\game project\test3\player.h
+	"entity.h"
+	<SDL.h>
+	<cmath>
+	"animation.h"
+
+1677164646 d:\game project\test3\animation.h
+	<SDL_image.h>
+	<SDL.h>
+	<vector>
+	<iostream>
+
